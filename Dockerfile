@@ -8,7 +8,7 @@ RUN \
 
 RUN npm install -g bower grunt
 
-RUN git clone https://github.com/apache/zeppelin.git /usr/local/zeppelin
+RUN git clone https://github.com/IshmeetKaur/zeppelin.git#development /usr/local/zeppelin
 WORKDIR /usr/local/zeppelin
 RUN git checkout v0.6.1
 
