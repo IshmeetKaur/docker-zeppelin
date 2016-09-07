@@ -10,7 +10,7 @@ RUN npm install -g bower grunt
 
 RUN git clone https://github.com/IshmeetKaur/zeppelin.git /usr/local/zeppelin
 WORKDIR /usr/local/zeppelin
-RUN git checkout pysparkmatplotlib
+RUN git checkout modify_show
 
 RUN mvn clean package -Pspark-1.6 -Phadoop-2.6 -DskipTests
 
